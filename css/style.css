@@ -1,0 +1,256 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+[class*="__container"] {
+    max-width: 810px;
+    margin: 0 auto;
+}
+
+.about__header {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+}
+
+.about__text {
+    margin-top: 40px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.learn__header {
+    margin-top: 48px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #1E212C;
+}
+
+.list {
+    margin-top: 24px;
+}
+
+.list__item {
+    padding-bottom: 4px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.list__item {
+    background: url('../img/Vector.svg') 0 6px no-repeat;
+    padding-left: 32px;
+}
+
+.upper__header {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #1E212C;
+}
+
+.cody__header {
+    margin-top: 8px;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+}
+
+.cody__descr {
+    margin-top: 16px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #787A80;
+}
+
+.cody__list {
+    margin-top: 32px;
+}
+
+.star__item {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+    background: url("../img/Star_vector.svg") 0 5px no-repeat;
+    padding-left: 24px;
+    margin-bottom: 10px;
+}
+
+.play__item {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+    background: url("../img/play_vector.svg") 0 5px no-repeat;
+    padding-left: 24px;
+    margin-bottom: 10px;
+}
+
+.students__item {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+    background: url("../img/students_vector.svg") 0 5px no-repeat;
+    padding-left: 24px;
+}
+
+.second__container p {
+    margin-top: 32px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.homework__header {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+.homework__header:hover {
+    color: #17eeca;
+}
+
+.homework__header:active {
+    text-decoration: underline;
+    color: #df0bbb;
+}
+
+.block {
+    background-color: #041547;
+    color: #7888c7;
+    padding: 10px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.block__item {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.block:hover .block__item {
+    opacity: 1;
+    visibility: visible;
+}
+
+.block__center {
+    text-align: center;
+}
+
+.block__list {
+    margin-bottom: 30px;
+}
+
+.block__list-first {
+    margin: 0 auto;
+    border: 2px solid #70f06b;
+    width: 300px;
+    background-color: #a485b1;
+    color: #141210;
+    font-weight: 700;
+
+}
+
+.block__list-second {
+    margin: 0 auto;
+    border: 2px solid #70f06b;
+    min-width: 300px;
+    background-color: #a485b1;
+    color: #141210;
+    font-weight: 700;
+    width: 300px;
+}
+
+.block__list-inside {
+    display: none;
+}
+
+.block__list-third {
+    margin: 0 auto;
+    border: 2px solid #70f06b;
+    min-width: 300px;
+    background-color: #a485b1;
+    color: #141210;
+    font-weight: 700;
+    width: 300px;
+}
+
+.block_2 {
+    margin-bottom: 50px;
+}
+
+.block__list .block__list-second:hover .block__list-inside {
+    display: block;
+}
+
+.block_3 {
+    text-align: center;
+}
+
+.block_3-link {
+    color: #0cd105;
+    text-decoration: none;
+    font-weight: 700;
+    border-bottom: red;
+}
+
+.block_3-link:focus {
+    border: 3px solid red;
+}
+
+.block__text {
+    margin-top: 40px;
+    background-color: #92e6d8;
+    padding: 20px;
+    color: #d67dc7;
+    margin-bottom: 40px;
+}
+
+.block__text p {
+    padding-bottom: 20px;
+}
+
+.block__text p:first-child {
+    text-decoration: underline;
+}
+
+.block__text p:last-child {
+    color: #fff;
+}
+
+.block__text p:nth-child(3) {
+    color: red;
+}
